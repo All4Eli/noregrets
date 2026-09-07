@@ -1,5 +1,19 @@
 # Pluribus-Style Poker Bot (Rust)
 
+## Licensing
+
+This public repository is MIT licensed, but it is **not the most recent
+version** of the project. Development happens in a private repository; work
+is released here under MIT roughly six months after it lands there. Trained
+blueprints and other pretrained artifacts are never published and are
+available under commercial license only.
+
+For the current version, pretrained blueprints, or consulting, contact
+Conor Armstrong at <conorarmstrong@gmail.com>. External pull requests are
+not accepted, so that the licensing split stays clean.
+
+---
+
 A Rust implementation of a Pluribus-style poker AI for 2-6 player no-limit
 Texas Hold'em, based on "Superhuman AI for multiplayer poker" (Brown &
 Sandholm, Science 2019). It trains a blueprint strategy with parallel
