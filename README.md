@@ -1,16 +1,38 @@
-# Pluribus-Style Poker Bot (Rust)
+# NoRegrets
+
+**A six-handed no-limit hold'em AI in Rust.** Two to six players from one
+trained strategy, with every postflop decision re-solved at the table
+against the range each opponent has represented.
+
+Almost every published poker AI plays one opponent. Money games have five.
+Pluribus, the only published six-handed breakthrough, was never released:
+what exists is a paper, a methods supplement and 10,000 logged hands. This
+is an independent implementation of that architecture that you can read,
+train and change, plus the measurement harness that says how good it is,
+including where it is bad.
 
 ## Licensing
 
-This public repository is MIT licensed, but it is **not the most recent
-version** of the project. Development happens in a private repository; work
-is released here under MIT roughly six months after it lands there. Trained
-blueprints and other pretrained artifacts are never published and are
-available under commercial license only.
+This repository is MIT licensed and it is **not the current version**.
+Development happens in a private repository, and work is released here
+under MIT roughly **twelve months** after it lands there. Trained
+blueprints and other pretrained artifacts are never published here and are
+available under a commercial licence only.
 
-For the current version, pretrained blueprints, or consulting, contact
-Conor Armstrong at <conorarmstrong@gmail.com>. External pull requests are
-not accepted, so that the licensing split stays clean.
+What the commercial editions add, and who they are for:
+
+- **Game integrity.** Collusion and bot detection needs a reference
+  strategy and a value function for the game being scored. For six-handed
+  cash that is the hard part, and it is what this engine is. Scoped pilots
+  on an operator's own hand histories.
+- **Source licence.** The private repository as it stands today and every
+  day after, the trained blueprints, and time from the author to get it
+  running inside your system.
+
+For the current version, the blueprints, a pilot or consulting, contact
+Conor Armstrong at <conorarmstrong@gmail.com>; the full commercial terms
+are published, and will be sent on request. External pull requests are not
+accepted, so that the licensing split stays clean.
 
 ---
 
