@@ -11,7 +11,7 @@ use crate::eval::eval_hole_board;
 use rand::rngs::SmallRng;
 use rand::Rng;
 
-pub const MAX_PLAYERS: usize = 6;
+pub const MAX_PLAYERS: usize = 9;
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord)]
 pub enum Street {
